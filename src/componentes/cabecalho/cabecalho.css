@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 80px;
+}
+
+.header a {
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.header a:hover {
+    color: var(--color-softRed);
+}
+
+.botaoLogin {
+    background-color: var(--color-softRed);
+    padding: 8px;
+    width: 110px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.botaoLogin:hover {
+    background-color: transparent;
+    color: var(--color-softRed);
+    border: solid 1px var(--color-softRed);
+ 
+}
