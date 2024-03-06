@@ -14,18 +14,21 @@ const DownloadExtensoes = () => {
                 <img src="./imagens/logo-chrome.svg" alt="" />
                 <h2>Add to Chrome</h2>
                 <p>Minimum version 62</p>
+                <img src="./imagens/bg-dots.svg" alt="" />
                 <button type="button">Add & Install Extension</button>
             </div>
             <div className="designExtensoes firefox">
                 <img src="./imagens/logo-firefox.svg" alt="" />
                 <h2>Add to Firefox</h2>
                 <p>Minimum version 55</p>
+                <img src="./imagens/bg-dots.svg" alt="" />
                 <button type="button">Add & Install Extension</button>
             </div>
             <div className="designExtensoes opera">
                 <img src="./imagens/logo-opera.svg" alt="" />
                 <h2>Add to Opera</h2>
                 <p>Minimum version 46</p>
+                <img src="./imagens/bg-dots.svg" alt="" />
                 <button type="button">Add & Install Extension</button>
             </div>
         </seciton>
