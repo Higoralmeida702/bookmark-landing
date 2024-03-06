@@ -18,6 +18,14 @@ const BookmarkManager = () => {
                 <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
             </div>
             </section>
+            <section className="bookmarkInOneClick ">
+                <img src="./imagens/illustration-features-tab-1.svg" alt="" />
+                <div className="inOneClickConteudo ">
+                    <h1>Bookmark in one click</h1>
+                    <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                    <button type="button">More info</button>
+                </div>
+            </section>
         </div>
     )
 }

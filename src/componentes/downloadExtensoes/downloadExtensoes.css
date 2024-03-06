@@ -1,0 +1,59 @@
+.downloadExtensao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.downloadExtensaoTexto {
+    width: 550px;
+    margin: 50px 100px;
+}
+
+.extensao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 280px;
+}
+
+.designExtensoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 10px;
+    height: 310px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px #cccccc
+}
+
+.designExtensoes p {
+    color: var(--color-grayishBlue);
+}
+
+.designExtensoes button{
+    cursor: pointer;
+    background-color: var(--color-softBlue);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+}
+
+.designExtensoes button:hover {
+    background-color: transparent;
+    color: var(--color-softBlue);
+    border: 1px solid var(--color-softBlue);
+}
+
+.firefox{
+    margin-top: 60px;
+}
+
+.opera {
+    margin-top: 120px;
+}

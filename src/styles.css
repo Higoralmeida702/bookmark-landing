@@ -11,3 +11,8 @@
 body {
     font-family: "Rubik", sans-serif;
 }
+
+p {
+    color: var(--color-grayishBlue);
+    font-size: 18px;
+}
