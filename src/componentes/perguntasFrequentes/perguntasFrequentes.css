@@ -1,0 +1,62 @@
+.perguntasFrequentes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-top: 100px;
+}
+.perguntasFrequentesDetalhes {
+    text-align: center;
+    width: 510px;
+}
+
+.perguntas h3{
+    cursor: pointer;
+    margin-left: 20px;
+    border: solid 2px black;
+    border-radius: 8px;
+    width: auto;
+}
+.areaDePerguntas p {
+    margin-left: 20px;
+    color: black;
+    width: 500px;
+}
+
+.perguntas h3:hover {
+    color: var(--color-softRed);
+}
+
+.perguntas img {
+    width: 400px;
+}
+
+.linha {
+    width: 100%; 
+    height: 1px; 
+    background-color: #ccc; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+.botaoPosicionamento {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.botaoPosicionamento button {
+    background-color: var(--color-softBlue);
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    width: 110px;
+
+    margin-top: 30px;
+}
+
+.botaoPosicionamento button:hover {
+    background-color: transparent;
+    color: var(--color-softBlue);
+    border: 1px solid var(--color-softBlue);
+}

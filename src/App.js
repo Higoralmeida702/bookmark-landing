@@ -2,6 +2,7 @@ import './styles.css'
 import Cabecalho from "./componentes/cabecalho";
 import BookmarkManager from "./componentes/bookmarkManager"
 import DownloadExtenoes from './componentes/downloadExtensoes';
+import PerguntasFrequentes from './componentes/perguntasFrequentes';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Cabecalho/>
       <BookmarkManager/>
       <DownloadExtenoes/>
+      <PerguntasFrequentes/>
     </div>
   );
 }
