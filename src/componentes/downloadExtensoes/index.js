@@ -9,7 +9,7 @@ const DownloadExtensoes = () => {
                 <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize</p>
                 </div>
             </div>
-            <seciton className="extensao">
+            <section className="extensao">
             <div className="designExtensoes chrome">
                 <img src="./imagens/logo-chrome.svg" alt="" />
                 <h2>Add to Chrome</h2>
@@ -31,7 +31,7 @@ const DownloadExtensoes = () => {
                 <img src="./imagens/bg-dots.svg" alt="" />
                 <button type="button">Add & Install Extension</button>
             </div>
-        </seciton>
+        </section>
         </div>
        
     )

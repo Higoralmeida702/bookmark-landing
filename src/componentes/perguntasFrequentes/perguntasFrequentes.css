@@ -50,13 +50,17 @@
     padding: 12px;
     border-radius: 8px;
     border: none;
+    outline: 2px solid var(--color-softBlue);
+    outline-offset: -2px;
     width: 110px;
-
     margin-top: 30px;
+
 }
 
 .botaoPosicionamento button:hover {
     background-color: transparent;
     color: var(--color-softBlue);
-    border: 1px solid var(--color-softBlue);
+    border-color: var(--color-softBlue);
+    
 }
+

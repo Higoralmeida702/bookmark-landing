@@ -24,6 +24,8 @@
     padding: 10px;
     background-color: var(--color-softBlue);
     border: none;
+    outline: 2px solid var(--color-softBlue);
+    outline-offset: -2px;
     color: #FFF;
     border-radius: 6px; 
     width: 130px;
@@ -33,7 +35,6 @@
 .getItOnChrome:hover {
     background-color: transparent;
     color: var(--color-softBlue);
-    border: solid 1px var(--color-softBlue);
 
 }
 
@@ -42,7 +43,10 @@
     margin-left: 20px;
     padding: 10px;
     width: 130px;
-    border: none;  
+    background-color: var(--color-grayishBlue);
+    border: none;
+    outline: 2px solid var(--color-grayishBlue);  
+    outline-offset: -2px;
     border-radius: 6px; 
     font-weight: 700;
 }
@@ -50,7 +54,6 @@
 .getItOnFirefox:hover {
     background-color: transparent;
     color: black;
-    border: solid 1px var(--color-grayishBlue);
 }
 .bookmarkManager img {
     width: 30%;
@@ -107,12 +110,15 @@
     color: white;
     padding: 12px;
     border-radius: 8px;
+    outline: 2px solid var(--color-softBlue);
+    outline-offset: -2px;
     border: none;
     width: 110px;
 }
 
 .inOneClickConteudo button:hover {
+    border-color: var(--color-softBlue);
     background-color: transparent;
     color: var(--color-softBlue);
-    border: 1px solid var(--color-softBlue);
+
 }

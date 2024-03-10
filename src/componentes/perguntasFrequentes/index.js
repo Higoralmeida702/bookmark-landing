@@ -41,10 +41,10 @@ const PerguntasFrequentes = () => {
                     <div className='linha'/>
                 </div>
                 <div className='botaoPosicionamento'>
-                    <button type="button">More Info</button>                            
-
+                <button >More Info</button>    
                 </div>
             </section>
+                                          
         </div>
     );
 }

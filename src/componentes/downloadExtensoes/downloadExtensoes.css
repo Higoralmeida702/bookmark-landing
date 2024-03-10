@@ -37,17 +37,18 @@
 .designExtensoes button{
     cursor: pointer;
     background-color: var(--color-softBlue);
+    outline: 2px var(--color-softBlue) solid;
+    outline-offset: -3px;
+    border: none;
     color: white;
     padding: 8px;
-    border: none;
     border-radius: 5px;
     width: 210px;
 }
 
 .designExtensoes button:hover {
-    background-color: transparent;
+    background-color: #FFF;
     color: var(--color-softBlue);
-    border: 1px solid var(--color-softBlue);
 }
 
 .firefox{

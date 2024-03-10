@@ -1,0 +1,74 @@
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--color-softBlue);
+    margin-top: 100px;
+    height: 350px;
+    flex-direction: column;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.rodape button {
+    margin-left: 20px;
+    width: 180px;
+    cursor: pointer;
+    padding: 15px;
+    border: solid 1px var(--color-softRed);
+    color: #FFF;
+    background-color: var(--color-softRed);
+    border-radius: 8px;
+}
+
+.rodape button:hover {
+    background-color: #FFF;
+    color: var(--color-softRed);
+    border-color: var(--color-softRed)
+}
+
+.rodape h4 {
+    letter-spacing: 5px;
+}
+
+.rodapeFinal {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    height: 400px;
+    background-color: hsl(229, 31%, 21%);
+    width: 100%;   
+}
+
+.rodapeFinalAlinhamento {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 100px;
+    letter-spacing: 3px;
+}
+
+.rodapeFinalAlinhamento a {
+    text-decoration: none;
+    color: var(--color-grayishBlue);
+}
+
+.rodapeFinalAlinhamento a:hover {
+    color: var(--color-softRed);
+}
+
+.iconsRedeSocial {
+    cursor: pointer ;
+    display: flex;
+    margin-left: 900px;
+    gap: 40px;
+}
+
